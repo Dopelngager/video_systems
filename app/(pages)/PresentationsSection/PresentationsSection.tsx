@@ -7,8 +7,6 @@ import { PresentationsSectionProps } from "./PresentationsSection.props";
 import { ContentBlock } from "@/app/components/ContentBlock/ContentBlock";
 import Image from "next/image";
 import { Button } from "@/app/components/Button/Button";
-import DownloadB from "./download_blue.svg";
-import DownloadW from "./download_white.svg";
 
 export const PresentationsSection = ({ children, ...props }: PresentationsSectionProps) => {
 	const scrollToPage = () => {
@@ -49,7 +47,7 @@ export const PresentationsSection = ({ children, ...props }: PresentationsSectio
 							<HTag tag="h3_medium" color="black">
 								Как следить за порядком в подёезде?
 							</HTag>
-							<Image src={DownloadB} alt="downloadB" width={40} height={40} />
+							<Image src="/download_blue.svg" alt="downloadB" width={40} height={40} />
 						</div>
 					</ContentBlock>
 					<div className={styles.blocksDown}>
@@ -61,7 +59,7 @@ export const PresentationsSection = ({ children, ...props }: PresentationsSectio
 								<HTag tag="h3_medium" color="white">
 									Видеонаблюдение во дворе
 								</HTag>
-								<Image src={DownloadW} alt="downloadW" width={40} height={40} />
+								<Image src="/download_white.svg" alt="downloadW" width={40} height={40} />
 							</div>
 						</ContentBlock>
 						<ContentBlock color="white" size="large" className={styles.block}>
@@ -72,7 +70,7 @@ export const PresentationsSection = ({ children, ...props }: PresentationsSectio
 								<HTag tag="h3_medium" color="black">
 									Домофония novicam
 								</HTag>
-								<Image src={DownloadB} alt="downloadB" width={40} height={40} />
+								<Image src="/download_blue.svg" alt="downloadB" width={40} height={40} />
 							</div>
 						</ContentBlock>
 					</div>

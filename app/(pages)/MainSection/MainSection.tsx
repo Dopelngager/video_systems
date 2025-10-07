@@ -5,8 +5,6 @@ import { Tags } from "@/app/components/Tags/Tags";
 import styles from "./MainSection.module.css";
 import { MainSectionProps } from "./MainSection.props";
 import { ContentBlock } from "@/app/components/ContentBlock/ContentBlock";
-import IconFrame1 from "./icons/icon_frame_1.svg";
-import IconFrame2 from "./icons/icon_frame_2.svg";
 import Image from "next/image";
 import { Button } from "@/app/components/Button/Button";
 
@@ -27,7 +25,13 @@ export const MainSection = ({ children, ...props }: MainSectionProps) => {
 							Казань
 						</Tags>
 					</div>
-					<Image className={styles.iconFrame1} src={IconFrame1} alt="Frame_1" width={135} height={128} />
+					<Image
+						className={styles.iconFrame1}
+						src="/icon_frame_1.svg"
+						alt="Frame_1"
+						width={135}
+						height={128}
+					/>
 					<HTag tag="h1" color="black" className={styles.headInstallH3}>
 						Установка и продажа систем видеонаблюдения
 					</HTag>
@@ -49,7 +53,13 @@ export const MainSection = ({ children, ...props }: MainSectionProps) => {
 						доступа и видеодомофонии.
 					</HTag>
 					<Button appearance="primary" className={styles.buttonLeaveH3} onClick={scrollToPage} />
-					<Image className={styles.iconFrame2} src={IconFrame2} alt="Frame_1" width={165} height={165} />
+					<Image
+						className={styles.iconFrame2}
+						src="/icon_frame_2.svg"
+						alt="Frame_1"
+						width={165}
+						height={165}
+					/>
 				</ContentBlock>
 			</div>
 			{children}

@@ -4,8 +4,6 @@ import styles from "./PromotionsSection.module.css";
 import { PromotionsSectionProps } from "./PromotionsSection.props";
 import { ContentBlock } from "@/app/components/ContentBlock/ContentBlock";
 import Image from "next/image";
-import IconFrame1 from "./icon_frame_1.svg";
-import IconFrame2 from "./icon_frame_2.svg";
 
 export const PromotionsSection = ({ children, ...props }: PromotionsSectionProps) => {
 	return (
@@ -21,7 +19,7 @@ export const PromotionsSection = ({ children, ...props }: PromotionsSectionProps
 				</div>
 				<div className={styles.promotionsBlocks}>
 					<ContentBlock color="blue" size="small" className={styles.block}>
-						<Image src={IconFrame2} alt="IconFrame2" width={160} height={160} />
+						<Image src="/icon_frame_2_prom.svg" alt="IconFrame2" width={160} height={160} />
 						<Tags color="bg_white" fontColor="blue">
 							Бесплатно
 						</Tags>
@@ -30,7 +28,7 @@ export const PromotionsSection = ({ children, ...props }: PromotionsSectionProps
 						</HTag>
 					</ContentBlock>
 					<ContentBlock color="blue" size="small" className={styles.block}>
-						<Image src={IconFrame1} alt="IconFrame1" width={160} height={160} />
+						<Image src="/icon_frame_1_prom.svg" alt="IconFrame1" width={160} height={160} />
 						<div className={styles.promotionsTags}>
 							<Tags color="bg_white" fontColor="blue">
 								20%

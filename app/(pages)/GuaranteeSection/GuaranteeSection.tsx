@@ -4,8 +4,6 @@ import styles from "./GuaranteeSection.module.css";
 import { GuaranteeSectionProps } from "./GuaranteeSection.props";
 import { ContentBlock } from "@/app/components/ContentBlock/ContentBlock";
 import Image from "next/image";
-import Icon1 from "./icon1.svg";
-import Icon2 from "./icon2.svg";
 
 export const GuaranteeSection = ({ children, ...props }: GuaranteeSectionProps) => {
 	return (
@@ -31,14 +29,14 @@ export const GuaranteeSection = ({ children, ...props }: GuaranteeSectionProps) 
 				<></>
 				<div className={styles.guaranteeSectionContentBlocks}>
 					<ContentBlock color="blue" size="large" className={styles.guaranteeBlock}>
-						<Image src={Icon1} alt="Icon1" width={35} height={35} />
+						<Image src="./icon1.svg" alt="Icon1" width={35} height={35} />
 						<div>
 							<span>3 года</span>
 							<p>на оборудование</p>
 						</div>
 					</ContentBlock>
 					<ContentBlock color="blue" size="large" className={styles.guaranteeBlock}>
-						<Image src={Icon2} alt="Icon2" width={35} height={35} />
+						<Image src="./icon2.svg" alt="Icon2" width={35} height={35} />
 						<div>
 							<span>1 год</span>
 							<p>на обслуживание системы</p>

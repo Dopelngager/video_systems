@@ -5,11 +5,8 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
-    "export": "next export",
     "start": "next start",
-    "predeploy": "npm run build && npm run export",
-     "deploy": "gh-pages -d out",
-    "lint": "eslint"
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "framer-motion": "^12.23.22",
@@ -24,6 +21,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "classnames": "^2.5.1",
+    "copy-webpack-plugin": "^13.0.1",
     "eslint": "^9",
     "eslint-config-next": "15.5.4",
     "typescript": "^5"

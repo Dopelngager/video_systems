@@ -5,7 +5,6 @@ import styles from "./LeaveRequestSection.module.css";
 import { LeaveRequestSectionProps } from "./LeaveRequestSection.props";
 import { ContentBlock } from "@/app/components/ContentBlock/ContentBlock";
 import Image from "next/image";
-import Icon from "./icon.svg";
 import { Input } from "@/app/components/Input/Input";
 import { Checkbox } from "@/app/components/Checkbox/Checkbox";
 import { Button } from "@/app/components/Button/Button";
@@ -13,7 +12,6 @@ import { Controller, useForm } from "react-hook-form";
 import { ILeaveRequestForm } from "./LeaveRequestSection.interface";
 import { Select } from "@/app/components/Select/Select";
 import { Textarea } from "@/app/components/Textarea/Textarea";
-import cn from "classnames";
 
 export const LeaveRequestSection = ({ children, ...props }: LeaveRequestSectionProps) => {
 	const {
@@ -34,13 +32,13 @@ export const LeaveRequestSection = ({ children, ...props }: LeaveRequestSectionP
 					Заявка на подбор оборудования
 				</HTag>
 				<ContentBlock color="blue" size="small" className={styles.headBlock}>
-					<Image src={Icon} alt="downloadB" width={37} height={37} />
+					<Image src="/icon.svg" alt="downloadB" width={37} height={37} />
 					<HTag tag="h3_medium" color="white">
 						Заполните заявку на бесплатный расчёт
 					</HTag>
 				</ContentBlock>
 				<ContentBlock color="blue" size="small" className={styles.headBlock}>
-					<Image src={Icon} alt="downloadB" width={37} height={37} />
+					<Image src="/icon.svg" alt="downloadB" width={37} height={37} />
 					<HTag tag="h3_medium" color="white">
 						Мы сформируем оптимальный список требуемого
 					</HTag>
