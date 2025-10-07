@@ -1,0 +1,14 @@
+.textarea {
+	width: 619px;
+	height: 89px;
+	background: var(--white);
+	border-radius: 20px;
+	border: none;
+	outline: var(--white);
+	padding: 10px;
+	font-size: 16px;
+    font-weight: 400;
+    font-family: var(--font-family);
+    color: var(--gray);
+	resize: none;
+}

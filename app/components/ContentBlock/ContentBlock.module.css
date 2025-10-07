@@ -1,0 +1,28 @@
+.content_block {
+    border-radius: 20px;
+}
+
+.gray {
+    background: var(--gray);
+}
+
+.white {
+    background: var(--white);
+}
+
+.blue {
+    background: var(--blue);
+}
+
+.large {
+    padding: 20px;
+}
+
+.small {
+    padding: 10px;
+}
+
+.image_block {
+    padding: 0;
+    position: relative;
+}

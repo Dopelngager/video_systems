@@ -1,0 +1,22 @@
+.contentBlockIcon {
+	display: grid;
+	gap: 0px;
+	grid-template-columns: min-content min-content;
+	background: none;
+}
+
+.circle {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background: none;
+	border: 1px solid var(--white);
+}
+
+.circlePainted {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border: 1px solid var(--white);
+	background: var(--white);
+}

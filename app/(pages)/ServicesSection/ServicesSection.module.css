@@ -1,0 +1,61 @@
+.servicesSection {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 80px;
+}
+
+.containerContent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.containerContentLeft {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+    min-width: 435px;
+}
+
+.containerCenter {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+}
+
+.imageBlock {
+    min-height: 500px;
+    min-width: 319px;
+}
+
+.smallConteinerContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.smallConteinerHead {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.headerText {
+    max-width: 210px;
+}
+
+.bigContainerTags {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 460px;
+    align-content: flex-start;
+}
+
+.bigContainerHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

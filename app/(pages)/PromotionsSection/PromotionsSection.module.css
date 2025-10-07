@@ -1,0 +1,49 @@
+.promotionsSection {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+}
+
+.promotionsHead {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: self-start;
+    gap: 40px;
+}
+
+.promotionsHead > h3 {
+    max-width: 323px;
+}
+
+.promotionsBlocks {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.promotionsTags {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.block {
+    min-height: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.block > h2 {
+    max-width: 290px;
+}
+
+.block > h2 > span {
+   font-weight: 600;
+}
+
+.block img {
+    position: absolute;
+    margin-left: calc(100% - 180px);
+}

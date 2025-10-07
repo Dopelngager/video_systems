@@ -1,0 +1,42 @@
+.workSection {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 80px;
+}
+
+.workSectionContent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.circleBlock {
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    border: 1px solid var(--white);
+    background: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 30;
+}
+
+.circleBlock > h2 {
+    text-align: center;
+}
+
+.workSectionTags {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 400px;
+    align-content: flex-start;
+}
+
+.workSectionHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

@@ -1,0 +1,104 @@
+.leaveRequestSection {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+}
+
+.headBlock {
+    min-width: 230px;
+    min-height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.head {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 40px;
+}
+
+.reqColumns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.reqRows, .reqAll {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+   
+}
+
+.reqRows > div, .reqAll {
+    min-height: 180px;
+}
+
+.person {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    gap: 40px;
+}
+
+.person > div {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    align-content: start;
+    margin-top: 25px; 
+    margin-bottom: 2px;
+}
+
+.person input {
+    width: 418px;
+    height: 39px;
+}
+
+.textarea {
+    display: flex;
+    flex-direction: column;
+}
+
+.textarea > textarea  {
+    margin-top: 25px;
+}
+
+.textarea > button  {
+    margin-top: 60px;
+}
+
+.headReq {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.objects {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    gap: 119px;
+    position: relative;
+}
+
+.objectsSelect {
+    display: grid;
+    grid-template-columns: max-content;
+    gap: 119px;
+}
+
+.objects > div, .objectsSelect > div{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5px;
+    align-content: start;
+    margin-top: 25px;
+}
+
+.errorText {
+    position: absolute;
+    bottom: -13px;
+    left: 0;
+    font-size: 12px;
+    color: var(--red);
+}

@@ -1,0 +1,28 @@
+.input {
+	background: var(--white);
+    border: none;
+	padding: 10px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    outline-color: var(--white);
+    font-family: var(--font-family);
+    color: var(--gray);
+}
+
+.error {
+    border: 1px solid var(--red);
+    outline: var(--red);
+}
+
+.inputWrapper {
+    position: relative;
+}
+
+.errorMessage {
+    position: absolute;
+    bottom: -13px;
+    left: 10;
+    font-size: 12px;
+    color: var(--red);
+}

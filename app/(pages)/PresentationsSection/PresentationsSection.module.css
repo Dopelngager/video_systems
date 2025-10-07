@@ -1,0 +1,63 @@
+.presentationsSection {
+    display: grid;
+    grid-template-columns: 400px auto;
+    gap: 114px;
+}
+
+.presentationsContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.headTags {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.presentationsContentHead > h1 {
+    margin-top: 80px;
+}
+
+.presentationsContentHead > h4 {
+    margin-top: 40px;
+}
+
+.presentationsBlocks {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+}
+
+.blocksDown {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.blockHead {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 42px;
+}
+
+.block {
+    aspect-ratio: 1 / 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.block > div, .blockHead > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: end;
+}
+
+.block img, .blockHead img {
+    cursor: pointer;
+}

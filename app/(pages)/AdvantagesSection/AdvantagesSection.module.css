@@ -1,0 +1,72 @@
+.advantagesSection {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto;
+    gap: 40px;
+}
+
+.howContentBlock {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.adv1ContentBlock {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.adv2ContentBlock {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.adv3ContentBlock {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.adv4ContentBlock {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.textBold {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.howTextBold {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.textHead {
+    margin-top: 52px;
+}
+
+.textOneContentBlock {
+    margin-top: 40px;
+}
+
+.textTwoContentBlock {
+    margin-top: 10px;
+}

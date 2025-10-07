@@ -1,0 +1,39 @@
+.run_line {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.track {
+    display: flex;
+    gap: 10px;
+    animation: scroll 30s linear infinite;
+}
+
+.textRunline {
+    font-size: 25px;
+    color: var(--white);
+    font-weight: 600;
+}
+
+.item {
+    flex: 0 0 auto;
+    width: 385px;
+    height: 58px;
+    background: var(--gray);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+    border-radius: 20px;
+    gap: 25px;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}

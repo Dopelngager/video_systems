@@ -1,0 +1,71 @@
+.h1 {
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.h2_bold {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.h2_medium {
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.h3_bold {
+    font-weight: 600;
+    font-size: 18px; 
+}
+
+.h3_medium {
+    font-weight: 400;
+    font-size: 18px; 
+}
+
+.h3_light {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.h4_bold{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.3;
+}
+
+.h4_medium{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.3;
+}
+
+.h5 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.3;
+}
+
+.black {
+    color: var(--black);
+}
+
+.dark-blue {
+    color: var(--dark-blue);
+}
+
+.blue {
+    color: var(--blue);
+}
+
+.gray {
+    color: var(--gray);
+}
+
+.gray-light {
+    color: var(--gray-light);
+}
+
+.white {
+    color: var(--white);
+}

@@ -1,0 +1,48 @@
+.tags {
+    padding: 5px 10px;
+    max-height: 28px;
+    border-radius: 30px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.blue {
+    color: var(--blue);
+}
+
+.gray {
+    background: var(--gray);
+}
+
+.gray_light {
+    background: var(--gray-light);
+    padding: 5px 15px;
+    max-height: 29px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.gray_light:hover {
+    background-color: var(--gray);
+}
+
+.gray_light:active {
+    background-color: var(--blue);
+}
+
+.bg_white {
+    background: var(--white);
+}
+
+.font_white {
+    color: var(--white);
+}
+
+.black {
+    color: var(--black);
+}

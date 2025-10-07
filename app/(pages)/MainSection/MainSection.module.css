@@ -1,0 +1,66 @@
+.mainSection {
+    display: grid;
+    grid-template-columns: 1fr content;
+    grid-template-rows: auto auto;
+    gap: 40px;
+    grid-template-areas:
+      "installContentBlock imageContentBlock"
+      "leaveReqContentBlock imageContentBlock";
+}
+
+    .installContentBlock  {
+        grid-area: installContentBlock;
+        position: relative;
+        max-height: 260px;
+        min-width: 650px;
+    }
+
+    .imageContentBlock {
+        grid-area: imageContentBlock;
+        min-width: 450px;
+    }
+
+    .leaveReqContentBlock {
+        grid-area: leaveReqContentBlock;
+        position: relative;
+        max-height: 310px;
+        min-width: 650px;
+    }
+
+.tags {
+    display: grid;
+    grid-template-columns: repeat(2, min-content);
+    gap: 10px;
+}
+
+.iconFrame1 {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1;
+}
+
+.iconFrame2 {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1;
+}
+
+.headInstallH3 {
+    margin-top: 42px;
+    max-width: 602px;
+}
+
+.textInstallH3 {
+    margin-top: 20px;
+}
+
+.textLeaveH3 {
+    margin-top: 27px;
+    max-width: 480px;
+}
+
+.buttonLeaveH3 {
+    margin-top: 77px;
+}

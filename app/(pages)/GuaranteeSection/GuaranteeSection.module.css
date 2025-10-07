@@ -1,0 +1,77 @@
+.guaranteeSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.guaranteeSectionContent{
+    aspect-ratio: 1 / 1;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    align-items: end;
+}
+
+.guaranteeSectionContentImg {
+    aspect-ratio: 1 / 1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.guaranteeSectionTags {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.guaranteeSectionHead {
+    margin-top: 50px;
+}
+
+.guaranteeSectionText{
+    margin-top: 40px;
+}
+
+.guaranteeSectionHead > span {
+    font-weight: 600;
+}
+
+.guaranteeSectionContentBlocks {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    height: max-content;
+}
+
+.guaranteeBlock {
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+}
+
+.guaranteeBlock > div{
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.guaranteeBlock > div> span{
+    font-weight: 600;
+    font-size: 35px;
+    color: var(--white)
+}
+
+.guaranteeBlock > div> p{
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--white)
+}
+
+.guaranteeBlock > img{
+    position: absolute;
+    margin-top: -10px;
+    margin-right: -10px;
+}

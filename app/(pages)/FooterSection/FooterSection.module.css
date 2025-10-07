@@ -1,0 +1,40 @@
+.footerSection {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.footerHead {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footerCenter {
+    margin-top: 40px;
+    max-width: 184px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footerCenter > h3 {
+    font-weight: 700;
+}
+
+.footerDown {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.footerDown > h1 {
+    max-width: 51%;
+}
+
+.footerDown > p {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--gray);
+}
