@@ -99,7 +99,7 @@ export const ServicesSection = ({ children, ...props }: ServicesSectionProps) =>
 							</HTag>
 						</ContentBlock>
 					</div>
-					<ContentBlock size="imageBlock" path="/camera_2.png" className={styles.imageBlock} />
+					<ContentBlock size="imageBlock" path="camera_2.png" className={styles.imageBlock} />
 				</div>
 			</ContentBlock>
 			{children}

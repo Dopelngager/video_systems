@@ -41,7 +41,7 @@ export const MainSection = ({ children, ...props }: MainSectionProps) => {
 				</ContentBlock>
 			</div>
 			<div className={styles.imageContentBlock}>
-				<ContentBlock size="imageBlock" path="/camera_1.png" />
+				<ContentBlock size="imageBlock" path="camera_1.png" />
 			</div>
 			<div className={styles.leaveReqContentBlock}>
 				<ContentBlock color="gray" size="large">
