@@ -33,7 +33,7 @@
     transform: translateY(-50%);
     width: 35px;
     height: 35px;
-    background: url('/arrow.svg') no-repeat center;
+    background: url('arrow.svg') no-repeat center;
     background-size: contain;
 }
 
@@ -42,7 +42,7 @@
 }
 
 .primary:hover::after {
-    background: url('/arrow_hover.svg') no-repeat center;
+    background: url('arrow_hover.svg') no-repeat center;
 }
 
 .primary:active {
@@ -52,7 +52,7 @@
 
 
 .primary:active::after {
-	background: url('/arrow_hover.svg') no-repeat center;
+	background: url('arrow_hover.svg') no-repeat center;
 }
 
 .slave {
