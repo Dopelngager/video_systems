@@ -1,15 +1,15 @@
 import { RunLine } from "./components/RunLine/RunLine";
 import styles from "./page.module.css";
-import { MainSection } from "./(pages)/MainSection/MainSection";
-import { AdvantagesSection } from "./(pages)/AdvantagesSection/AdvantagesSection";
-import { ServicesSection } from "./(pages)/ServicesSection/ServicesSection";
-import { WorkSection } from "./(pages)/WorkSection/WorkSection";
-import { GuaranteeSection } from "./(pages)/GuaranteeSection/GuaranteeSection";
-import { PresentationsSection } from "./(pages)/PresentationsSection/PresentationsSection";
-import { PromotionsSection } from "./(pages)/PromotionsSection/PromotionsSection";
-import { LeaveRequestSection } from "./(pages)/LeaveRequestSection/LeaveRequestSection";
-import { Footer } from "./(pages)/FooterSection/FooterSection";
-import { Header } from "./(pages)/HeaderSection/HeaderSection";
+import { MainSection } from "./pages/MainSection/MainSection";
+import { AdvantagesSection } from "./pages/AdvantagesSection/AdvantagesSection";
+import { ServicesSection } from "./pages/ServicesSection/ServicesSection";
+import { WorkSection } from "./pages/WorkSection/WorkSection";
+import { GuaranteeSection } from "./pages/GuaranteeSection/GuaranteeSection";
+import { PresentationsSection } from "./pages/PresentationsSection/PresentationsSection";
+import { PromotionsSection } from "./pages/PromotionsSection/PromotionsSection";
+import { LeaveRequestSection } from "./pages/LeaveRequestSection/LeaveRequestSection";
+import { Footer } from "./pages/FooterSection/FooterSection";
+import { Header } from "./pages/HeaderSection/HeaderSection";
 
 const sections = [
 	<Header key="header" id="header" />,

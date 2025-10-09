@@ -3,8 +3,10 @@ import CopyWebpackPlugin from "copy-webpack-plugin";
 
 const nextConfig: NextConfig = {
   output: "export",
-  basePath: "/video_systems",
-  assetPrefix: "/video_systems/",
+  basePath: "/video-systems",
+  images: {
+    unoptimized: true,
+  },
 };
 
 export default nextConfig;
