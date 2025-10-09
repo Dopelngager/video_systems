@@ -9,7 +9,7 @@ export const Header = ({ children, ...props }: HeaderSectionProps) => {
 		<div {...props}>
 			<ContentBlock color="white" size="large" className={styles.headerSection}>
 				<div>
-					<Image src="/arsh_head.svg" alt="IconFrame" width={93} height={40} />
+					<Image src="arsh_head.svg" alt="IconFrame" width={93} height={40} />
 					<Navbar />
 				</div>
 				<p>+7 (843) 253-22-81</p>

@@ -27,7 +27,7 @@ export const MainSection = ({ children, ...props }: MainSectionProps) => {
 					</div>
 					<Image
 						className={styles.iconFrame1}
-						src="/icon_frame_1.svg"
+						src="icon_frame_1.svg"
 						alt="Frame_1"
 						width={135}
 						height={128}
@@ -55,7 +55,7 @@ export const MainSection = ({ children, ...props }: MainSectionProps) => {
 					<Button appearance="primary" className={styles.buttonLeaveH3} onClick={scrollToPage} />
 					<Image
 						className={styles.iconFrame2}
-						src="/icon_frame_2.svg"
+						src="icon_frame_2.svg"
 						alt="Frame_1"
 						width={165}
 						height={165}

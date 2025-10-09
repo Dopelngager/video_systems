@@ -10,7 +10,7 @@ export const Footer = ({ children, ...props }: FooterSectionProps) => {
 		<div {...props}>
 			<ContentBlock color="white" size="large" className={styles.footerSection}>
 				<div className={styles.footerHead}>
-					<Image src="/arsh.svg" alt="IconFrame" width={311} height={125} />
+					<Image src="arsh.svg" alt="IconFrame" width={311} height={125} />
 					<Navbar />
 				</div>
 				<div className={styles.footerCenter}>

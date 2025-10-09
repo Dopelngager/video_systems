@@ -47,7 +47,7 @@ export const PresentationsSection = ({ children, ...props }: PresentationsSectio
 							<HTag tag="h3_medium" color="black">
 								Как следить за порядком в подёезде?
 							</HTag>
-							<Image src="/download_blue.svg" alt="downloadB" width={40} height={40} />
+							<Image src="download_blue.svg" alt="downloadB" width={40} height={40} />
 						</div>
 					</ContentBlock>
 					<div className={styles.blocksDown}>
@@ -59,7 +59,7 @@ export const PresentationsSection = ({ children, ...props }: PresentationsSectio
 								<HTag tag="h3_medium" color="white">
 									Видеонаблюдение во дворе
 								</HTag>
-								<Image src="/download_white.svg" alt="downloadW" width={40} height={40} />
+								<Image src="download_white.svg" alt="downloadW" width={40} height={40} />
 							</div>
 						</ContentBlock>
 						<ContentBlock color="white" size="large" className={styles.block}>
@@ -70,7 +70,7 @@ export const PresentationsSection = ({ children, ...props }: PresentationsSectio
 								<HTag tag="h3_medium" color="black">
 									Домофония novicam
 								</HTag>
-								<Image src="/download_blue.svg" alt="downloadB" width={40} height={40} />
+								<Image src="download_blue.svg" alt="downloadB" width={40} height={40} />
 							</div>
 						</ContentBlock>
 					</div>

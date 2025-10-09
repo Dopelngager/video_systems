@@ -46,7 +46,7 @@ export const GuaranteeSection = ({ children, ...props }: GuaranteeSectionProps) 
 			</ContentBlock>
 			<ContentBlock color="blue" size="large" className={styles.guaranteeSectionContentImg}>
 				<Image
-					src="/sert.png"
+					src="sert.png"
 					alt="sert"
 					width={0}
 					height={0}

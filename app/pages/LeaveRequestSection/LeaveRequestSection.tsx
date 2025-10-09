@@ -32,13 +32,13 @@ export const LeaveRequestSection = ({ children, ...props }: LeaveRequestSectionP
 					Заявка на подбор оборудования
 				</HTag>
 				<ContentBlock color="blue" size="small" className={styles.headBlock}>
-					<Image src="/icon.svg" alt="downloadB" width={37} height={37} />
+					<Image src="icon.svg" alt="downloadB" width={37} height={37} />
 					<HTag tag="h3_medium" color="white">
 						Заполните заявку на бесплатный расчёт
 					</HTag>
 				</ContentBlock>
 				<ContentBlock color="blue" size="small" className={styles.headBlock}>
-					<Image src="/icon.svg" alt="downloadB" width={37} height={37} />
+					<Image src="icon.svg" alt="downloadB" width={37} height={37} />
 					<HTag tag="h3_medium" color="white">
 						Мы сформируем оптимальный список требуемого
 					</HTag>
